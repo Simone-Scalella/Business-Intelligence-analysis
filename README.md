@@ -129,5 +129,5 @@ Questo software offre una serie di strumenti in grado di rappresentare i dati in
   <li>PowerBI</li>
 </ul>
 
-Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [link](https://www.kaggle.com/datasets/jpmiller/police-violence-in-the-us).
+Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [relazione](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/Relazione_Qlik_Tableau_PowerBI.pdf).
 
