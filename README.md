@@ -7,6 +7,39 @@ Il dataset che sarà analizzato più avanti nella trattazione è come detto in p
 
 Questo dataset è una raccolta di dati provenienti da diverse fonti riguardanti le violenze commesse dalla polizia negli Stati Uniti, tra il 2013 e il 2019. Si andranno ad analizzare vari aspetti, tra cui il più importante l’equità razziale, tema molto sensibile negli Stati Uniti. Nel complesso, in sette anni la polizia americana ha ucciso oltre 7.500 persone, ovvero in media 1.100 all’anno e circa 34 ogni 10 milioni di abitanti. Si tratta soltanto di una parte dei 15 mila e più omicidi commessi ogni anno negli Stati Uniti, ma comunque significativa, considerando che i poliziotti rappresentano una fetta molto piccola della popolazione.
 
+In particolare, questo dataset è composto da 5 file in formato .csv, e sono:
+
+1. **deaths_arrests.csv:** questo file contiene informazioni relative all’etnia della popolazione americana, al numero di persone uccise durante un arresto in un determinato arco temporale e varie medie ottenute da questi dati.
+
+2. **fatal_encounters_dot_org.csv:** questo file contiene informazioni relative agli eventi con esito le-tale tra civili e forze dell’ordine, dove i civili hanno perso la vita.
+
+3. **police_deaths_538.csv:** questo file contiene informazioni relative ai decessi degli agenti delle forze dell’ordine durante il servizio.
+
+4. **police_killings_MPV.csv:** questo file contiene informazioni relative alle persone che sono morte durante una colluttazione con le forze dell’ordine. La differenza con il file precedente è che in questo file sono riportati solo gli eventi letali dovuti ad un intervento diretto delle forze dell’ordine, nell’altro file consideriamo anche eventi indiretti, come ad esempio incidenti e suicidi.
+
+5. **shootings_wash_post.csv:** questo file contiene un sottoinsieme delle informazioni presenti nel file police_killings_MPV.csv.
+
+## Pre-processing dei dati:
+
+Al fine di preparare il dataset che sarà poi analizzato con i diversi tool di analisi, è risultato necessario mettere in atto una fase di ETL dei dati, articolata in tre fasi principali:
+
+1. **Extract:** durante la fase di estrazione dei dati, sono stati scartati tutti quei campi non utili ai fini delle analisi. In particolare, si è deciso di tenere in considerazione alcuni campi utili per creare delle gerarchie sulle dimensioni (temporale, spaziale, fascia d’età).
+
+2. **Trasformation:** con questa fase andiamo ad effettuare una sorta di pulizia, una preparazione dei dati per la fase di load, rendendoli più chiari e completi.
+   In particolare, si è voluto prestare attenzione a:
+   * Rinominare i campi:si è notato che alcuni campi possiedono una terminologia alquanto complessa al fine della nostra analisi; si è quindi deciso di rinominare tali campi utilizzando una nomenclatura più adatta;
+   * Impostazione della data nel formato italiano: essendo le date impostate nel formato mm/gg/aaaa, si è deciso di sostituire con il formato gg/mm/aaaa, in quanto più comprensibile; sono stati anche eliminati campi contenenti anche solo l’anno, considerando quindi la data come unico campo temporale;
+   * Eliminazione delle virgole per identificare le migliaia: nei campi numerici, le migliaia sono separate mediante una virgola, si è deciso di toglierle per migliorare le analisi in cui questi verranno impiegati;
+   * Controllo di campi vuoti e nulli: In presenza di campi vuoti o campi nulli, utili all’analisi è deciso di trattarli in tre tipologie differenti:
+     - Eliminare la riga relativa al campo vuoto o nullo;
+     - Sostituire tali valori, nel caso di campi numerici, con lo zero;
+     - Essendo il dataset composto da un numero notevolmente grande di dati, si è deciso nel caso di campi numerici, se necessario, di inserire il valore medio ottenuto dalla media dei valori di tutti i campi relativi a quell’attributo oppure considerare il valore massimo o minimo che occorre il maggior numero di volte nei campi di quell’attributo.
+   * Controllo valori risultato: nel caso di campi contenenti il risultato di determinate funzioni, si è andato a controllare se il risultato ottenuto non ritornasse valori errati o impossibili;
+   * Controllo numero popolazione: abbiamo controllato se il numero effettivo delle persone appartenenti ad un Paese effettivamente corrispondessero con il numero reale;
+   * Eliminazione dei campi contenenti url: si è deciso di rimuovere tali campi in quanto non utili al fine delle analisi (tali url fanno riferimento ad immagini delle vittime o a documenti/articoli ufficiali relativi all’omicidio);
+   * Eliminazione campi contenenti informazioni ridondanti: all’interno della stessa tabella sono stati individuati dei campi contenenti informazioni duplicate, si è quindi deciso di rimuoverli
+3. **Load:** In questo modo otteniamo un dataset più pulito e pronto per essere caricato e analizzato tramite i vari tool
+
 
 ## Qlik
 Nello specifico andremo ad utilizzare Qlik Sense, un software per la “Self-service Analytics”, il quale permette all’utente finale di realizzare analisi sui dati d’interesse, al fine di creare report personalizzati e dashboard dinamiche.
@@ -95,4 +128,4 @@ Questo software offre una serie di strumenti in grado di rappresentare i dati in
   <li>Tableau</li>
   <li>PowerBI</li>
 </ul>
-Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [relazione]()
+Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [relazione](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/Relazione_Qlik_Tableau_PowerBI.pdf)
