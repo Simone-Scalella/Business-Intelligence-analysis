@@ -139,13 +139,16 @@ Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguent
 
 ## Esempi di risultati ottenuti
 
-Dash ottenuta con Qlik:
+### Dash ottenuta con Qlik:
+
 ![Qlik](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/image/Analisi01qlik.png)
 
-Analisi con Tableu:
+### Analisi con Tableu:
+
 ![Tableu](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/image/Dash01T.png)
 
-Analisi realizzata utilizzando un oggetto visivo presente nel marketplace commerciale Microsoft AppSource:
+### Analisi realizzata utilizzando un oggetto visivo presente nel marketplace commerciale Microsoft AppSource:
+
 ![BI](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/image/BILastImage.png)
 
 
