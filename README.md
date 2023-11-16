@@ -128,5 +128,6 @@ Questo software offre una serie di strumenti in grado di rappresentare i dati in
   <li>Tableau</li>
   <li>PowerBI</li>
 </ul>
-Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [relazione](https://github.com/ChiaraAmalia/Analisi_BI/blob/main/Relazione_Qlik_Tableau_PowerBI.pdf).
+
+Il dataset che sarà analizzato più avanti nella trattazione è come detto in precedenza un dataset relativo alle violenze commesse dalla polizia nei confronti dei cittadini americani: [link](https://www.kaggle.com/datasets/jpmiller/police-violence-in-the-us).
 
