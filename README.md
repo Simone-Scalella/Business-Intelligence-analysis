@@ -128,5 +128,5 @@ Questo software offre una serie di strumenti in grado di rappresentare i dati in
   <li>Tableau</li>
   <li>PowerBI</li>
 </ul>
-Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [relazione](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/Relazione_Qlik_Tableau_PowerBI.pdf).
+Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [relazione](https://github.com/ChiaraAmalia/Analisi_BI/blob/main/Relazione_Qlik_Tableau_PowerBI.pdf).
 
