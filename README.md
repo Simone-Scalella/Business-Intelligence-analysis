@@ -19,7 +19,7 @@ In particolare, questo dataset è composto da 5 file in formato .csv, e sono:
 
 5. **shootings_wash_post.csv:** questo file contiene un sottoinsieme delle informazioni presenti nel file police_killings_MPV.csv.
 
-## Pre-processing dei dati:
+## ETL dei dati:
 
 Al fine di preparare il dataset che sarà poi analizzato con i diversi tool di analisi, è risultato necessario mettere in atto una fase di ETL dei dati, articolata in tre fasi principali:
 
