@@ -145,7 +145,7 @@ Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguent
 
 ### Analisi con Tableu:
 
-![Tableu](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/image/Dash03T.png)
+![Tableu](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/image/TDash031.png)
 
 ### Analisi realizzata utilizzando un oggetto visivo presente nel marketplace commerciale Microsoft AppSource:
 
