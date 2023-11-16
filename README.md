@@ -151,5 +151,9 @@ Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguent
 
 ![BI](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/image/BILastImage.png)
 
+## Autori
 
-
+* **Scalella Simone:** [Github](https://github.com/Simone-Scalella)
+* **Zhang Yihang:** [Github](https://github.com/Accout-Personal)
+* **Margherita Galeazzi:** [Github](https://github.com/MargheritaGaleazzi)
+* **Chiara Amalia Caporusso:** [Github](https://github.com/ChiaraAmalia)
