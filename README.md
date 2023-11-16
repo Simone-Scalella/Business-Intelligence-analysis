@@ -3,7 +3,7 @@
 Con la seguente relazione si intende illustrare l’analisi descrittiva e predittiva svolta su un dataset relativo alle violenze commesse dalla polizia nel territorio americano.
 
 ### Dataset
-Il dataset che sarà analizzato più avanti nella trattazione è come detto in precedenza un dataset relativo alle violenze commesse dalla polizia nei confronti dei cittadini americani:[link](https://www.kaggle.com/datasets/jpmiller/police-violence-in-the-us).
+Il dataset che sarà analizzato più avanti nella trattazione è come detto in precedenza un dataset relativo alle violenze commesse dalla polizia nei confronti dei cittadini americani: [link](https://www.kaggle.com/datasets/jpmiller/police-violence-in-the-us).
 
 Questo dataset è una raccolta di dati provenienti da diverse fonti riguardanti le violenze commesse dalla polizia negli Stati Uniti, tra il 2013 e il 2019. Si andranno ad analizzare vari aspetti, tra cui il più importante l’equità razziale, tema molto sensibile negli Stati Uniti. Nel complesso, in sette anni la polizia americana ha ucciso oltre 7.500 persone, ovvero in media 1.100 all’anno e circa 34 ogni 10 milioni di abitanti. Si tratta soltanto di una parte dei 15 mila e più omicidi commessi ogni anno negli Stati Uniti, ma comunque significativa, considerando che i poliziotti rappresentano una fetta molto piccola della popolazione.
 
@@ -27,7 +27,7 @@ Al fine di preparare il dataset che sarà poi analizzato con i diversi tool di a
 
 2. **Trasformation:** con questa fase andiamo ad effettuare una sorta di pulizia, una preparazione dei dati per la fase di load, rendendoli più chiari e completi.
    In particolare, si è voluto prestare attenzione a:
-   * Rinominare i campi:si è notato che alcuni campi possiedono una terminologia alquanto complessa al fine della nostra analisi; si è quindi deciso di rinominare tali campi utilizzando una nomenclatura più adatta;
+   * Rinominare i campi: si è notato che alcuni campi possiedono una terminologia alquanto complessa al fine della nostra analisi; si è quindi deciso di rinominare tali campi utilizzando una nomenclatura più adatta;
    * Impostazione della data nel formato italiano: essendo le date impostate nel formato mm/gg/aaaa, si è deciso di sostituire con il formato gg/mm/aaaa, in quanto più comprensibile; sono stati anche eliminati campi contenenti anche solo l’anno, considerando quindi la data come unico campo temporale;
    * Eliminazione delle virgole per identificare le migliaia: nei campi numerici, le migliaia sono separate mediante una virgola, si è deciso di toglierle per migliorare le analisi in cui questi verranno impiegati;
    * Controllo di campi vuoti e nulli: In presenza di campi vuoti o campi nulli, utili all’analisi è deciso di trattarli in tre tipologie differenti:
@@ -128,4 +128,5 @@ Questo software offre una serie di strumenti in grado di rappresentare i dati in
   <li>Tableau</li>
   <li>PowerBI</li>
 </ul>
-Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [relazione](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/Relazione_Qlik_Tableau_PowerBI.pdf)
+Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [relazione](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/Relazione_Qlik_Tableau_PowerBI.pdf).
+
