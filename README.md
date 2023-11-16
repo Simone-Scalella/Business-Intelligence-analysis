@@ -129,5 +129,5 @@ Questo software offre una serie di strumenti in grado di rappresentare i dati in
   <li>PowerBI</li>
 </ul>
 
-Il dataset che sarà analizzato più avanti nella trattazione è come detto in precedenza un dataset relativo alle violenze commesse dalla polizia nei confronti dei cittadini americani: [link](https://www.kaggle.com/datasets/jpmiller/police-violence-in-the-us).
+Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [link](https://www.kaggle.com/datasets/jpmiller/police-violence-in-the-us).
 
