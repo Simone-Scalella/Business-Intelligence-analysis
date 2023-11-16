@@ -129,5 +129,19 @@ Questo software offre una serie di strumenti in grado di rappresentare i dati in
   <li>PowerBI</li>
 </ul>
 
+Questi software sono strumenti molto efficienti e flessibili, che danno anche la possibilità di scrivere interrogazioni personalizzate. Ad esempio si è implementata soluzione che consiste nel fare un controllo sui valori, nel caso in cui si trova questo valore si va ad inserire uno 0, in tutti gli altri mettiamo la somma del campo d’interesse.
+Riportiamo di seguito l'immagine dell'esempio.
+
+![01](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/image/condizione%20di%20ordinamento.png)
+
+
 Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [relazione](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/Relazione_Qlik_Tableau_PowerBI.pdf).
+
+## Esempi di risultati ottenuti
+
+![Qlik](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/image/Analisi01qlik.png)
+![Tableu](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/image/Dash01T.png)
+![BI](https://github.com/Simone-Scalella/Business-Intelligence-analysis/blob/main/image/BILastImage.png)
+
+
 
